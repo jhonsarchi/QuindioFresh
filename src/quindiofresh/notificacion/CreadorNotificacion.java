@@ -1,4 +1,5 @@
 package quindiofresh.notificacion;
 
-public class CreadorNotificacion {
+public abstract class CreadorNotificacion {
+    public abstract Notificacion crearNotificacion();
 }

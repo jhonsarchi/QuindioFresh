@@ -1,4 +1,5 @@
 package quindiofresh.pago;
 
-public class CreadorPago {
+public abstract class CreadorPago {
+    public abstract Pago crearPago();
 }

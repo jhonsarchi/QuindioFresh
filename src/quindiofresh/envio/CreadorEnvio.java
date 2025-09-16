@@ -1,4 +1,5 @@
 package quindiofresh.envio;
 
-public class CreadorEnvio {
+public abstract class CreadorEnvio {
+    public abstract Envio crearEnvio();
 }
